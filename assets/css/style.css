@@ -1,0 +1,152 @@
+/* --- GENERAL --- */
+* {
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+  background: url("../image/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a:hover, a:active, a:focus{
+  text-decoration: none;
+}
+.np{
+  padding-right:0;
+  padding-left:0;
+}
+footer {
+    padding: 10px;
+    position: relative;
+}
+header {
+    background-color: #023a56;
+    margin-bottom: 30px;
+    height: 45px;
+}
+.sidebar {
+    position: absolute;
+    background-color: #023a56;
+    height: 900px;
+    width: 262px;
+    margin-left: 15px;
+    text-align:center;
+    padding:30px 15px;
+}
+.topo{
+  background-color:#023a56;
+  height:300px;
+  margin-bottom:30px;
+}
+.main {
+    background-color: #fff;
+    height: 1600px;
+}
+footer {
+    background-color: #023a56;
+    margin-top: 30px;
+    height: 250px;
+}
+.top {
+    font-size:20px;
+    color:#fff;
+}
+.bottom {
+    position: absolute;
+    bottom: 10px;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+/* OWL Carousel */
+.homeCarousel .owl-prev .fa, .homeCarousel .owl-next .fa{
+  position:absolute;
+  top: calc(50% - 15px);
+  color:#023a56;
+  font-size:40px;
+}
+.homeCarousel .owl-prev .fa{
+  left:15px;
+}
+.homeCarousel .owl-next .fa{
+  right:15px;
+}
+
+/* Button Home */
+.buttonHome{
+  -webkit-box-shadow: 0px 7px 19px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 7px 19px -6px rgba(0,0,0,1);
+  box-shadow: 0px 7px 19px -6px rgba(0,0,0,1);
+}
+.buttonHome a{
+  display: block;
+  text-align:center;
+  color:#fff;
+  height:60px;
+  line-height: 60px;
+  font-size:14px;
+}
+.buttonHome a .fa{
+  margin-right:10px;
+  color:#fff;
+  background-color:#fff;
+  padding:10px;
+  border-radius:40px;
+}
+.buttonHome__one{
+  background-color:#ed1a3b;
+}
+.buttonHome .buttonHome__one .fa{
+  color:#ed1a3b;
+}
+.buttonHome__two{
+  background-color:#FFC303;
+}
+.buttonHome .buttonHome__two .fa{
+  color:#FFC303;
+}
+.buttonHome__three{
+  background-color:#023a56;
+}
+.buttonHome .buttonHome__three .fa{
+  color:#023a56;
+}
+.buttonHome__four{
+  background-color:#f25826;
+}
+.buttonHome .buttonHome__four .fa{
+  color:#f25826;
+}
+
+/* Menu Icon */
+.menuIcon{
+  margin-top:30px;
+  background-color:#eff0f0;
+  padding:5px 0;
+}
+.menuIcon__item{
+  display:inline-block;
+  padding-right:27px;
+}
+.menuIcon__item:last-child{
+  padding-right:0;
+}
+.menuIcon__item .fa{
+  color:#023a56;
+  font-size:30px;
+}
+
+/* Product Home */
+.productHome{
+  padding:30px 15px;
+}
+
+/* Media Query */
+@media (max-width: 1200px) {
+  .sidebar{
+    width: 293px;
+  }
+}
